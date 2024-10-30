@@ -38,5 +38,5 @@ enum months
 
 int main()
 {
-    printf("My favourite month is %d\n", NOV);
+    printf("My favourite month is %d\n", JAN);
 }
