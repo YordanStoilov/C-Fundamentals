@@ -11,12 +11,12 @@
       "environment": [],
       "externalConsole": false,
       "MIMode": "gdb",
-      "program": "${fileDirname}/build/${fileBasenameNoExtension}",
+      "program": "${workspaceFolder}/build/${fileBasenameNoExtension}",
       "linux": {
         "miDebuggerPath": "/usr/bin/gdb"
       },
       "windows": {
-        "program": "${fileDirname}\\build\\${fileBasenameNoExtension}.exe",
+        "program": "${workspaceFolder}\\build\\${fileBasenameNoExtension}.exe",
         "miDebuggerPath": "gdb.exe"
       },
       "osx": {
@@ -37,8 +37,8 @@
       "type": "lldb",
       "request": "launch",
       "args": [],
-      "cwd": "/Users/yordanstoilov/Desktop/headrush/Coding/C-Advanced/C-Fundamentals/Examples",
-      "program": "/Users/yordanstoilov/Desktop/headrush/Coding/C-Advanced/C-Fundamentals/Examples/build/Debug/outDebug"
+      "cwd": "${workspaceFolder}",
+      "program": "${workspaceFolder}/build/${fileBasenameNoExtension}"
     }
   ]
 }

@@ -5,8 +5,6 @@
 typedef unsigned char Byte;
 typedef char* String;
 
-// We use capital letters
-
 // Using typedef to set alias for enum
 typedef enum
 {
@@ -28,7 +26,7 @@ int main()
 {
     Byte age = 28;
     String name = "Yordan";
-    Month month = 11;
+    Month month = NOV;
 
     printf("My name is %s and I am %d years old!\n", name, age);
     printf("I was born in month %d\n!",month);
