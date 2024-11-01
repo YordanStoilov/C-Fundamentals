@@ -1,0 +1,10 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/yordanstoilov/Desktop/headrush/Coding/C-Advanced/C-Fundamentals/build/passByreference'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _swap, symObjAddr: 0x0, symBinAddr: 0x100003CFC, symSize: 0x2C }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _swap, symObjAddr: 0x0, symBinAddr: 0x100003CFC, symSize: 0x2C }
+  - { offsetInCU: 0x81, offset: 0x81, size: 0x8, addend: 0x0, symName: _swapByValue, symObjAddr: 0x2C, symBinAddr: 0x100003D28, symSize: 0x3C }
+  - { offsetInCU: 0xC1, offset: 0xC1, size: 0x8, addend: 0x0, symName: _swapByValueBitwise, symObjAddr: 0x68, symBinAddr: 0x100003D64, symSize: 0x68 }
+  - { offsetInCU: 0xF3, offset: 0xF3, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0xD0, symBinAddr: 0x100003DCC, symSize: 0x168 }
+...
