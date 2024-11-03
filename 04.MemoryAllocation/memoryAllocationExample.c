@@ -10,6 +10,8 @@ int main()
     char* string = (char*)malloc(length * sizeof(char));
 
     // Copying string to allocated memory
+    // This is possible, because when dynamically allocationg memory
+    // The char* is mutable, as opposed to when implicitly allocating memory
     strcpy(string, "MyName");
     printf("String = %s, Address = %p\n", string, string);
 
