@@ -37,8 +37,8 @@
       "type": "lldb",
       "request": "launch",
       "args": [],
-      "cwd": "${workspaceFolder}",
-      "program": "${workspaceFolder}/build/${fileBasenameNoExtension}"
+      "cwd": "/Users/yordanstoilov/Desktop/headrush/Coding/C-Advanced/C-Fundamentals/04.PointerArithmetic",
+      "program": "/Users/yordanstoilov/Desktop/headrush/Coding/C-Advanced/C-Fundamentals/04.PointerArithmetic/build/Debug/outDebug"
     }
   ]
 }
