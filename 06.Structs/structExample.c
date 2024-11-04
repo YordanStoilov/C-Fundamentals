@@ -9,6 +9,17 @@ struct
     int year;
 } today, tomorrow;
 
+// Creating a struct using char*, instead of char[]
+typedef struct Speaker
+{
+    char* brand;
+    char* model;
+    char* type;
+    int lowerFrequencyBound;
+    int upperFrequencyBound;
+    int maximumSPL;
+}Speaker;
+
 // Creating and initializing at the same time:
 struct Car
 {
@@ -46,7 +57,7 @@ int main()
 
     printf("\n");
     mercedes.year = 2009;
-    
+
     // To initialize char[] outside of Initializer List, you need to use strcpy()
     strcpy(mercedes.brand, "Mercedes");
     strcpy(mercedes.model, "C180 Kompressor");
@@ -72,4 +83,14 @@ int main()
     printf("Struct today\n");
     printf("\tToday is %02d-%d-%02d\n", today.day, today.month, today.year);
     // Today is 03-11-2024
+
+    printf("\n");
+    printf("Struct Speaker\n");
+
+    Speaker dynaudio = {"Dynaudio", "BM5", "Passive", 50, 21000, 125};
+    printf("\t%s speaker %s %s with maximum SPL of %d and a frequency range %d - %d Hz\n", 
+        dynaudio.type, dynaudio.brand, dynaudio.model, dynaudio.maximumSPL, 
+        dynaudio.lowerFrequencyBound, dynaudio.upperFrequencyBound);
+    
+    // Passive speaker Dynaudio BM5 with maximum SPL of 125 and a frequency range 50 - 21000 Hz
 }

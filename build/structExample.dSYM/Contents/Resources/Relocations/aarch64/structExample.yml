@@ -2,10 +2,10 @@
 triple:          'arm64-apple-darwin'
 binary-path:     '/Users/yordanstoilov/Desktop/headrush/Coding/C-Advanced/C-Fundamentals/build/structExample'
 relocations:
-  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003AFC, symSize: 0x2CC }
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003A18, symSize: 0x340 }
   - { offsetInCU: 0x59, offset: 0x59, size: 0x8, addend: 0x0, symName: _today, symBinAddr: 0x1000080A0, symSize: 0x0 }
   - { offsetInCU: 0x9E, offset: 0x9E, size: 0x8, addend: 0x0, symName: _tomorrow, symBinAddr: 0x1000080AC, symSize: 0x0 }
   - { offsetInCU: 0xB3, offset: 0xB3, size: 0x8, addend: 0x0, symName: _mercedes, symBinAddr: 0x100008050, symSize: 0x0 }
   - { offsetInCU: 0x101, offset: 0x101, size: 0x8, addend: 0x0, symName: _mazda, symBinAddr: 0x100008000, symSize: 0x0 }
-  - { offsetInCU: 0x10A, offset: 0x10A, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003AFC, symSize: 0x2CC }
+  - { offsetInCU: 0x10A, offset: 0x10A, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003A18, symSize: 0x340 }
 ...
