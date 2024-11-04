@@ -71,4 +71,7 @@ int main()
     mercedes.tireType.manufactureDate.day, mercedes.tireType.manufactureDate.month, mercedes.tireType.manufactureDate.year,
     mercedes.tireType.size);
     // Black S500 from 2012 with Tires: Dot number: 256, manafactured on 02-04-2022 with size 18.3
+
+    printf("The size of Car struct is %lu bytes\n", sizeof(Car));
+    // The size of Car struct is 48 bytes
 }
