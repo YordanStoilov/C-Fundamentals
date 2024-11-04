@@ -27,6 +27,8 @@ int main()
     (*pLexus).year = 2009;
 
     printf("Struct Car:\n");
+
+    // Passing pointers to the Car structs to the function:
     printCarData(pAudi);
     printCarData(pLexus);
 
@@ -35,6 +37,7 @@ int main()
         // Lexus RX400h from 2009 with a 3.3L Naturally Aspirated Hybrid engine
 }
 
+// Creating a function that takes in the car by reference:
 void printCarData(Car* car)
 {
     printf("\t%s %s from %d with a %.1lfL %s %s engine\n", car->brand, car->model, car->year, car->engineSize, car->engineType, car->fuel);
