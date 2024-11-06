@@ -19,7 +19,7 @@ int main()
         return -1;
     }
 
-    // Iterating character by character and writing to the temp
+    // Reading character by character and writing to the temp
     char currentChar;
     while ((currentChar = fgetc(file)) != EOF)
     {
